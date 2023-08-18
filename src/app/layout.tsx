@@ -19,7 +19,6 @@ export default function RootLayout ({
 }) {
   return (
     <html lang='en'>
-      <head>el head</head>
       <body className={inter.className}>
         <header>
 
