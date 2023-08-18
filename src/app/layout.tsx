@@ -1,7 +1,9 @@
 import React from 'react'
+
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import MainMenu from '@/components/MainMenu/MainMenu'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +19,14 @@ export default function RootLayout ({
 }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>{children}</body>
+      <head>el head</head>
+      <body className={inter.className}>
+        <header>
+
+          <MainMenu />
+        </header>
+        {children}
+      </body>
     </html>
   )
 }
