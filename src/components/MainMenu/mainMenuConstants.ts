@@ -9,7 +9,7 @@ export const mainMenuLinks:Links[] = [
     route: '/'
   },
   {
-    label: 'about',
-    route: '/about'
+    label: 'Post',
+    route: '/post'
   }
 ]
