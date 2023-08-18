@@ -1,11 +1,11 @@
 import { Button } from '@/components/ui/button'
-import Image from 'next/image'
+// import Image from 'next/image'
 
-export default function Home() {
+export default function Home () {
   return (
     <>
-   <div> home page</div>
-   <Button>mi button</Button>
+      <div> home page</div>
+      <Button>mi button</Button>
     </>
   )
 }
