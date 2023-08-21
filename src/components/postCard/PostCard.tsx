@@ -27,7 +27,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post }) => {
       <div className='flex'>
         <Button className='mx-auto mb-3' onClick={handleClick}>
           <Link href={`/post/${post.id}`}>
-            watch post
+            watch
           </Link>
         </Button>
       </div>
